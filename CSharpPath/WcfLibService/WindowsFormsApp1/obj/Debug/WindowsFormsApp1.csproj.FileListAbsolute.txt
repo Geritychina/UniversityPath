@@ -1,0 +1,20 @@
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

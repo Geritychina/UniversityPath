@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "BGToll";
+}
+
+@using (Html.BeginForm())
+{
+    <p>Въведете номер на автомобил: @Html.TextBox("id") <input type="submit" value="Seach" /> </p>
+}
+
+<h2>BGToll @ViewData["id"]</h2>
+<p>Държава: @ViewData["country"]</p>
+<p>Номер винетка: @ViewData["vignetteNumber"]</p>
+<p>Валидна от: @ViewData["validityDateFrom"] </p>
+<p>Валидна до: @ViewData["validityDateTo"]</p>
+
+<br />
+<br />
+<p>
+    @ViewData["body"];
+</p>

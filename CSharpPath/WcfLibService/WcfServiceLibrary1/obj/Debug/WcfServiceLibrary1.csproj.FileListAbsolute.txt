@@ -1,0 +1,20 @@
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojAssemblyReference.cache
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Viktor Matanski\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CopyComplete
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CopyComplete
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\USER\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
