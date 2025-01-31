@@ -46,6 +46,16 @@ Includes:
 📌Used technology: Star UML, Maven & Cucumber 🥒 for Eclipse / Java 🐸
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📌Design_patterns
+
+👉Design patterns on Java
+
+📌Used patterns:
+▶️ Observer, Command, Singleton, Factory Method
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 📍All right belong to the author of the cource work!
