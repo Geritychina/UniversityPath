@@ -22,7 +22,7 @@ Includes:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📌 ChineseRestaurant🍣🥬🍖 - 中餐厅
+📌ChineseRestaurant🍣🥬🍖 - 中餐厅
 
 👉Simple Angular Application for restaurant management with CRUD operations and Authentication
 
