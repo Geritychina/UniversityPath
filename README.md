@@ -63,7 +63,21 @@ Includes:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+📌CSharpPath 🦈
 
+➡️ This is my touch with Advanced C# & .Net 🌟
+
+📌Some C# Applications 📌
+
+📌ADS Console Solutions 📌
+
+📍BGToll Api - Api integration 📍
+
+📍Library List - Asp.Net Razor Pages 📍
+
+📍WcfServise - SOAP Service 🧼 📍
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📍All right belong to the author of the cource work!
