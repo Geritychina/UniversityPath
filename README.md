@@ -115,7 +115,7 @@ Includes:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📍All right belong to the author of the cource work!
+📍All right belong to the author of the course works!
 
 Made with love By Gergana™
 
