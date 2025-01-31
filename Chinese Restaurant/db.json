@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "Gerjika",
+      "email": "gerji@gmail.com",
+      "mobile": "043655889",
+      "address": "Plovdiv, Bulgaria",
+      "service": "Hot Pot"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Gergana",
+      "email": "gerity@foxmail.com",
+      "mobile": "0889764576",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test@mail.com",
+      "mobile": "098763466",
+      "password": "1111111111",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
