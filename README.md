@@ -111,7 +111,7 @@ Includes:
 
 📌Distributed Applications with .Net 📌
 
-📌SOAP,Repository Implementation and MVC 📌
+📌SOAP, Repository Implementation and MVC 📌
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
