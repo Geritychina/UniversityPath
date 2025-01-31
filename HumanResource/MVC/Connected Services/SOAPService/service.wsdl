@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfService" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ApplicationService.DTOs" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployees_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployees" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployees_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeeByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmployeeByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:PutEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PutEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositions" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositionByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositionByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPositionByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPositionByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostPosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostPosition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostPosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutPosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:PutPosition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutPosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PutPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePosition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetContracts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContracts" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetContracts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetContractByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractByID" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetContractByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PostContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:PutContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_PutContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PutContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteContractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployees">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployees" message="tns:IService1_GetEmployees_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeesResponse" message="tns:IService1_GetEmployees_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostEmployee" message="tns:IService1_PostEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostEmployeeResponse" message="tns:IService1_PostEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmployeeByID" message="tns:IService1_GetEmployeeByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmployeeByIDResponse" message="tns:IService1_GetEmployeeByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PutEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PutEmployee" message="tns:IService1_PutEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PutEmployeeResponse" message="tns:IService1_PutEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteEmployee" message="tns:IService1_DeleteEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteEmployeeResponse" message="tns:IService1_DeleteEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPositions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPositions" message="tns:IService1_GetPositions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPositionsResponse" message="tns:IService1_GetPositions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPositionByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPositionByID" message="tns:IService1_GetPositionByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPositionByIDResponse" message="tns:IService1_GetPositionByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostPosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostPosition" message="tns:IService1_PostPosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostPositionResponse" message="tns:IService1_PostPosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PutPosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PutPosition" message="tns:IService1_PutPosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PutPositionResponse" message="tns:IService1_PutPosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletePosition" message="tns:IService1_DeletePosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletePositionResponse" message="tns:IService1_DeletePosition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContracts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetContracts" message="tns:IService1_GetContracts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetContractsResponse" message="tns:IService1_GetContracts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContractByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetContractByID" message="tns:IService1_GetContractByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetContractByIDResponse" message="tns:IService1_GetContractByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PostContract" message="tns:IService1_PostContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PostContractResponse" message="tns:IService1_PostContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PutContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/PutContract" message="tns:IService1_PutContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PutContractResponse" message="tns:IService1_PutContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteContract" message="tns:IService1_DeleteContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteContractResponse" message="tns:IService1_DeleteContract_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployees">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmployeeByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/PutEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPositions">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPositions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPositionByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPositionByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostPosition">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutPosition">
+      <soap:operation soapAction="http://tempuri.org/IService1/PutPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePosition">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletePosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContracts">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetContracts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContractByID">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetContractByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/PostContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/PutContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfService/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Repository.dll.config
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Repository.dll
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Repository.pdb
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Data.dll
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Data.pdb
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\Data.dll.config
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\HumanResource\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\HumanResource\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\HumanResource\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\HumanResource\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\USER\source\repos\HumanResource\Repository\obj\Debug\Repository.dll
+C:\Users\USER\source\repos\HumanResource\Repository\obj\Debug\Repository.pdb

@@ -1,0 +1,17 @@
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\Data.dll.config
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\Data.dll
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\Data.pdb
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\source\repos\HumanResource\Data\bin\Debug\System.Data.SqlClient.xml
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.Migrations.InitialMigration.resources
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.dll
+C:\Users\USER\source\repos\HumanResource\Data\obj\Debug\Data.pdb
